@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <defs>
+    <style>
+      .cls-1 {
+        opacity: 0.4;
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+
+      .cls-3 {
+        opacity: 0.6;
+      }
+    </style>
+  </defs>
+  <g id="Group_6" data-name="Group 6" class="cls-1" transform="translate(244 -451)">
+    <rect id="Rectangle_18" data-name="Rectangle 18" class="cls-2" width="20" height="20" transform="translate(-244 451)"/>
+    <path id="bx-bed" class="cls-3" d="M16.4,8.177V3H14.8V4.579H5.2V3H3.6V8.177A3.138,3.138,0,0,0,2,10.895v3.158a.8.8,0,0,0,.8.789h.8V18H5.2V14.842h9.6V18h1.6V14.842h.8a.794.794,0,0,0,.8-.789V10.895A3.139,3.139,0,0,0,16.4,8.177ZM14.8,6.158V7.737h-4V6.158Zm-9.6,0h4V7.737h-4Zm11.2,7.105H3.6V10.895A1.591,1.591,0,0,1,5.2,9.316h9.6a1.591,1.591,0,0,1,1.6,1.579Z" transform="translate(-244 451)"/>
+  </g>
+</svg>

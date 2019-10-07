@@ -1,0 +1,442 @@
+!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Include styles -->
+    <!-- Vendor styles -->
+    <link rel="stylesheet" type="text/css" href="../../vendor/ap8/css/style.css">
+    <link rel="stylesheet" href="../../vendor/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../../vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../vendor/swiper/css/swiper.min.css">
+    <!-- Styles for pages -->
+    <link rel="stylesheet" type="text/css" href="../../assets/stylesheets/index.css">
+    <link rel="stylesheet" type="text/css" href="../../assets/stylesheets/pages/_new-detail-popup.css">
+    <!-- Include scripts -->
+    <script type="text/javascript" src="../../vendor/jquery/jquery-3.2.1.slim.min.js"></script>
+    <script type="text/javascript" src="../../vendor/popper.js/popper.min.js"></script>
+    <script type="text/javascript" src="../../vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../../vendor/swiper/js/swiper.min.js"></script>
+    <title>Thông tin chi tiết</title>
+</head>
+
+<body>
+    <section class="News-Detail-Page">
+        <!-- Button to Open the Modal -->
+        <button class="btn btn-primary mt-3" data-toggle="modal" data-target="#newsDetailsModal">
+            Open modal
+        </button>
+        <div class="modal news-details__modal" id="newsDetailsModal">
+            <div class="ndt-modal__container">
+                <div class="modal-content">
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <button type="button" class="close close-button" data-dismiss="modal">&times;</button>
+                        <div class="clearfix"></div>
+                    </div>
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        
+                        <div class="modal-body__container container">
+                            <div class="news-details__content-top">
+                                <div class="news-details__header d-flex">
+                                    <div class="nd-header__logo">
+                                        <img class="nd-header--logo" src="../../assets/img/avatar-user.png" />
+                                    </div>
+                                    <div class="nd-header__title">
+                                        <div class="header-title__container">
+                                            <a href="#" class="header-title-name">Nam Anh</a>
+                                            <div class="header-title__content">[
+                                                <span class="small-text">Chuyên gia</span>
+                                                <span class="content-1">
+                                                    3,5+
+                                                    <img class="edit-star" src="../../assets/img/SVG/star.svg">
+                                                </span>
+                                                ]</div>
+                                            <span class="header-title--time-post">3 ngày trước</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="nd-header__title-text">Vì sao hầu hết người đi mua nhà đều ưa chuộng những căn hộ đã hoàn
+                                    thiện, đủ tiện nghi và sẵn sàng vào ở? </div>
+                                <img class="edit-picture" src="../../assets/img/phong_detail.png" />
+                                <div class="nd-content__texts">
+                                    <p class="text-1">
+                                        Giảm áp lực căn hộ hình thành trong tương lai khác biệt quá lớn so với truyền thông,
+                                        những dự án đã hoàn thiện, bàn giao luôn được người mua nhà ưu tiên lựa chọn. Với chính sách
+                                        "Nhận nhà trước – Trả tiền sau" dự án VC2 Golden Heart số 1, Nghiêm Xuân Yêm, phường Đại Kim,
+                                        quận Hoàng Mai nhanh chóng ghi điểm.
+                                    </p>
+                                    <p class="text-2">
+                                        Dự án chuẩn bị bàn giao, giảm thiểu áp lực.
+                                    </p>
+                                    <p class="text-3">
+                                        Mua nhà là chuyện an cư lạc nghiệp lâu dài. Giá trị của những sản phẩm BĐS không hề nhỏ.
+                                        Chuyện người mua nhà băn khoăn, cân đo đong đếm trước khi đưa ra quyết định là điều dễ hiểu.
+                                        </br>
+                                        </br>
+                                        Anh Tuấn, nhân viên một sàn giao dịch có nhiều năm kinh nghiệm về phân phối căn hộ tại Hà
+                                        Nội chia sẻ: Hiện nay, nguồn cung nhà phong phú, người mua nhà thường lo ngại khi đối mặt
+                                        với nhiều rủi ro khi lựa chọn những căn hộ trên giấy. Nhất là khi số lượng và loại hình sản
+                                        phẩm tăng nhưng không đi kèm với chất lượng, bàn giao không đúng thời hạn hoặc thậm chí, sản
+                                        phẩm khác xa so với bản vẽ mẫu. Thực tế cũng chứng minh, những dự án đã xây dựng xong và
+                                        tiến hành bàn giao mới ghi điểm trên thị trường và tính thanh khoản sẽ cao.
+                                        </br>
+                                        </br>
+                                        Xét về góc độ kinh tế, những dự án đã hoàn thiện và sẵn sàng bàn giao giúp khách hàng tiết
+                                        kiệm được một khoản phí thuê nhà. Theo thống kê giá thuê nhà của một gia đình trung bình 5 -
+                                        10 triệu đồng mỗi tháng. Khi không phải đặt cọc và bỏ ra vài năm để chờ đợi thì người mua
+                                        nhà hoàn thành và bàn giao đưa vào sử dụng đã tiết kiệm được hàng trăm triệu đồng.
+                                        </br>
+                                        </br>
+                                        Lựa chọn những dự án đã bàn giao, người mua nhà cũng được hưởng các hạng mục, tiện ích nội
+                                        khu hoàn thiện, trọn vẹn hơn. Dưới áp lực người đi mua nhà có cơ hội được trực tiếp trải
+                                        nghiệm, "mục sở thị" dự án, chủ đầu tư không chỉ phải chú trọng xây dựng dự án, mà còn phải
+                                        chỉn chu, kỹ lưỡng hơn trong từng hạng mục. Ngoài ra, có thời gian tìm hiểu thông tin pháp
+                                        lý của dự án, người mua nhà cũng hạn chế được rủi ro, tranh chấp về giấy tờ sở hữu sau khi
+                                        nhận nhà. Bởi những lý do này, căn hộ đã bàn giao, đưa vào sử dụng luôn hút khách, đón nhiều
+                                        tín hiệu tích cực.
+                                    </p>
+                                    <div>
+                                        <div class="swiper-container">
+                                            <div class="swiper-wrapper swiper-content">
+                                                <div class="swiper-slide">
+                                                    <img src="../../assets/img/toa_nha_2.png" />
+                                                </div>
+                                                <div class="swiper-slide">
+                                                    <img src="../../assets/img/phong_detail.png" />
+                                                </div>
+                                            </div>
+                                            <!-- Add Arrows -->
+                                            <div class="swiper-button-next edit-button-next"></div>
+                                            <div class="swiper-button-prev edit-button-prev"></div>
+                                        </div>
+                                    </div>
+                                    <p>
+                                        <p class="text-2">
+                                            Nhận nhà trước, trả tiền sau.
+                                        </p>
+                                        <p class="text-3">
+                                            Trong bối cảnh những dự án đã hoàn thiện và sẵn sàng bàn giao đang trở thành lựa chọn được ưu
+                                            tiên,
+                                            chủ đầu tư không những phải đẩy nhanh tiến độ xây dựng, mà còn phải đưa ra những chính sách thật
+                                            sự
+                                            nổi bật.
+                                            <br>
+                                            <br>
+                                            Điển hình như dự án VC2 Golden Heart số 1, Nghiêm Xuân Yêm, phường Đại Kim, quận Hoàng Mai, nhân
+                                            dịp
+                                            dự án hoàn thành, bàn giao đưa vào sử dụng vào tháng 6/2019, Chủ đầu tư Vinaconex 2 đã có chính
+                                            sách
+                                            ưu đãi đặc biệt hấp dẫn "Nhận nhà trước – Trả tiền sau": Khách hàng chỉ cần thanh toán 30% giá
+                                            trị
+                                            căn
+                                            hộ là được nhận bàn giao ngay nhà để sử dụng, 70% còn lại trả theo tiến độ thanh toán linh hoạt.
+                                            Chính
+                                            sách ưu đãi này sẽ giúp cho khách hàng đang đi thuê vừa có nhà để ở, vừa giải tỏa được áp lực
+                                            tài
+                                            chính khi kéo giãn tiến độ thanh toán. Cơ hội chỉ áp dụng cho Khách hàng đặt mua căn hộ từ ngày
+                                            22/5/2019 đến hết 30/6/2019.
+                                            <br>
+                                            <br>
+                                            Ngoài ra, Công ty Vinaconex 2 còn rất nhiều chính sách ưu đãi, hấp dẫn cho Khách hàng như: chính
+                                            sách
+                                            ưu đãi lên đến 10% - tương đương gần 200 triệu đồng, Khách hàng nộp đủ 70% giá trị căn hộ ngay
+                                            sau
+                                            khi
+                                            ký hợp đồng sẽ được tặng thêm 1% giá trị căn hộ , hỗ trợ lãi suất ngân hàng 0% ...
+                                        </p>
+                                    </p>
+                                    <div>
+                                        <div class="edit-tags__content d-flex flex-wrap">
+                                            <span style="margin-top: 10px; font-size: 16px;font-weight: 500; color: #3b63a1;">Tags:</span>
+                                            <div class="nav-item edit-tags">
+                                                <a class="tag-item  text-2">
+                                                    BatDongSan
+                                                </a>
+                                            </div>
+                                            <div class="nav-item edit-tags">
+                                                <a class="tag-item text-2 tag-item-3">
+                                                    Laisuatnganhang
+                                                </a>
+                                            </div>
+                                            <div class="nav-item edit-tags">
+                                                <a class="tag-item  text-2">
+                                                    BatDongSan
+                                                </a>
+                                            </div>
+                                            <div class="nav-item edit-tags">
+                                                <a class="tag-item  text-2">
+                                                    BatDongSan
+                                                </a>
+                                            </div>
+                                            <div class="nav-item edit-tags">
+                                                <a class="tag-item  text-2">
+                                                    BatDongSan
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="info-fix">
+                                <div class="name">Nam Anh</div>
+                                <div class="post-time">03 ngày trước</div>
+                                <a class="btn btn-follow" href="#">Theo giõi</a>
+                                <div class="actions">
+                                    <div>
+                                        <a href="#" class="btn">
+                                            <span class="-ap  icon-like2 icon"></span> 40
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a href="#" class="btn">
+                                            <span class="-ap  icon-share4 icon"></span> 40
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a href="#" class="btn">
+                                            <span class="-ap  icon-bookmark_outline icon"></span> 40
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!----------- Content-bottom --------->
+                            <div class="divider-gray"></div>
+                            <div class="news-details__content-bottom">
+                                <div class="box-comments" style="padding-top: 20px;">
+                                    <h2 class="title-main">Bình luận</h2>
+                                    <div class="comments">
+                                        <div class="item">
+                                            <div class="avatar" style="background-image: url(https://www.bitgab.com/uploads/profile/files/default.png)">
+                                            </div>
+                                            <div class="username">Lâm Thy Văn Tần <span class="datetime">12:09 - 18/10/2019</span></div>
+                                            <div class="comment-content">Đầu tư an toàn, bảo toàn dòng vốn. Cam kết lợi nhuận 10%/năm. Hỗ trợ lãi suất
+                                                0%/tháng. Bảo đảm chất lượng với đơn vị vận hành quốc tế. Giá trị bất động sản tăng theo hàng năm. Cho vay
+                                                lên tới 65% Cơ hội du lịch miễn phí. Vốn đầu tư từ 600 triệu. Tặng 15 đêm nghỉ dưỡng.</div>
+                                            <div class="action-buttons-bottom">
+                                                <a href="#" class="btn">
+                                                    Trả lời
+                                                </a>
+                                                <a href="#" class="btn -comment">
+                                                    <span class="fa fa-comment-o icon"></span> 40
+                                                </a>
+                                                <a href="#" class="btn">
+                                                    <span class="-ap  icon-like2 icon"></span> 40
+                                                </a>
+                                                <a href="#" class="btn -share">
+                                                    <span class="-ap  icon-share4 icon"></span> 40
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <div class="avatar" style="background-image: url(https://www.bitgab.com/uploads/profile/files/default.png)">
+                                            </div>
+                                            <div class="username">Lâm Thy Văn Tần <span class="datetime">12:09 - 18/10/2019</span></div>
+                                            <div class="comment-content">Đầu tư an toàn, bảo toàn dòng vốn. Cam kết lợi nhuận 10%/năm. Hỗ trợ lãi suất
+                                                0%/tháng. Bảo đảm chất lượng với đơn vị vận hành quốc tế. Giá trị bất động sản tăng theo hàng năm. Cho vay
+                                                lên tới 65% Cơ hội du lịch miễn phí. Vốn đầu tư từ 600 triệu. Tặng 15 đêm nghỉ dưỡng.</div>
+                                            <div class="action-buttons-bottom">
+                                                <a href="#" class="btn">
+                                                    Trả lời
+                                                </a>
+                                                <a href="#" class="btn -comment">
+                                                    <span class="fa fa-comment-o icon"></span> 40
+                                                </a>
+                                                <a href="#" class="btn">
+                                                    <span class="-ap  icon-like2 icon"></span> 40
+                                                </a>
+                                                <a href="#" class="btn -share">
+                                                    <span class="-ap  icon-share4 icon"></span> 40
+                                                </a>
+                                            </div>
+                                            <div class="comments">
+                                                <div class="item">
+                                                    <div class="avatar" style="background-image: url(https://www.bitgab.com/uploads/profile/files/default.png)"></div>
+                                                    <div class="username">Lâm Thy Văn Tần <span class="datetime">12:09 - 18/10/2019</span></div>
+                                                    <div class="comment-content">Đầu tư an toàn, bảo toàn dòng vốn. Cam kết lợi nhuận 10%/năm. Hỗ trợ lãi suất
+                                                        0%/tháng. Bảo đảm chất lượng với đơn vị vận hành quốc tế. Giá trị bất động sản tăng theo hàng năm. Cho
+                                                        vay lên tới 65% Cơ hội du lịch miễn phí. Vốn đầu tư từ 600 triệu. Tặng 15 đêm nghỉ dưỡng.</div>
+                                                    <div class="action-buttons-bottom">
+                                                        <a href="#" class="btn">
+                                                            Trả lời
+                                                        </a>
+                                                        <a href="#" class="btn -comment">
+                                                            <span class="fa fa-comment-o icon"></span> 40
+                                                        </a>
+                                                        <a href="#" class="btn">
+                                                            <span class="-ap  icon-like2 icon"></span> 40
+                                                        </a>
+                                                        <a href="#" class="btn -share">
+                                                            <span class="-ap  icon-share4 icon"></span> 40
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <div class="item">
+                                                    <div class="avatar" style="background-image: url(https://www.bitgab.com/uploads/profile/files/default.png)"></div>
+                                                    <div class="username">Lâm Thy Văn Tần <span class="datetime">12:09 - 18/10/2019</span></div>
+                                                    <div class="comment-content">Đầu tư an toàn, bảo toàn dòng vốn. Cam kết lợi nhuận 10%/năm. Hỗ trợ lãi suất
+                                                        0%/tháng. Bảo đảm chất lượng với đơn vị vận hành quốc tế. Giá trị bất động sản tăng theo hàng năm. Cho
+                                                        vay lên tới 65% Cơ hội du lịch miễn phí. Vốn đầu tư từ 600 triệu. Tặng 15 đêm nghỉ dưỡng.</div>
+                                                    <div class="action-buttons-bottom">
+                                                        <a href="#" class="btn">
+                                                            Trả lời
+                                                        </a>
+                                                        <a href="#" class="btn -comment">
+                                                            <span class="fa fa-comment-o icon"></span> 40
+                                                        </a>
+                                                        <a href="#" class="btn">
+                                                            <span class="-ap  icon-like2 icon"></span> 40
+                                                        </a>
+                                                        <a href="#" class="btn -share">
+                                                            <span class="-ap  icon-share4 icon"></span> 40
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <div class="item -input">
+                                                    <div class="avatar" style="background-image: url(https://www.bitgab.com/uploads/profile/files/default.png)"></div>
+                                                    <input class="form-control comment-input" placeholder="Viết bình luận">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="divider-gray">
+                                
+                            </div>
+                            <div class="bottom-related-news">
+                                <div class="title-main">Các bài viết liên quan</div>
+                                <div class="list-news">
+                                    <div class="item">
+                                        <div class="wrap">
+                                            <a href="#" class="post-image" style="background-image: url(https://cdn.tuoitre.vn/thumb_w/640/2019/1/16/photo-1-15476236955311643255083.jpg);">
+                                                <img src="../../assets/img/204x102.jpg" alt="">
+                                            </a>
+                                            <h3 class="post-title">
+                                                <a href="#">Tòa nhà Lý Chính Thắng đang trong giai đoạn hoàn thiện…</a>
+                                            </h3>
+                                            <div class="post-time">
+                                                12:09 - 18/10/2019
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="wrap">
+                                            <a href="#" class="post-image" style="background-image: url(https://cdn.tuoitre.vn/thumb_w/640/2019/1/16/photo-1-15476236955311643255083.jpg);">
+                                                <img src="../../assets/img/204x102.jpg" alt="">
+                                            </a>
+                                            <h3 class="post-title">
+                                                <a href="#">Tòa nhà Lý Chính Thắng đang trong giai đoạn hoàn thiện…</a>
+                                            </h3>
+                                            <div class="post-time">
+                                                12:09 - 18/10/2019
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="wrap">
+                                            <a href="#" class="post-image" style="background-image: url(https://cdn.tuoitre.vn/thumb_w/640/2019/1/16/photo-1-15476236955311643255083.jpg);">
+                                                <img src="../../assets/img/204x102.jpg" alt="">
+                                            </a>
+                                            <h3 class="post-title">
+                                                <a href="#">Tòa nhà Lý Chính Thắng đang trong giai đoạn hoàn thiện…</a>
+                                            </h3>
+                                            <div class="post-time">
+                                                12:09 - 18/10/2019
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="wrap">
+                                            <a href="#" class="post-image" style="background-image: url(https://cdn.tuoitre.vn/thumb_w/640/2019/1/16/photo-1-15476236955311643255083.jpg);">
+                                                <img src="../../assets/img/204x102.jpg" alt="">
+                                            </a>
+                                            <h3 class="post-title">
+                                                <a href="#">Tòa nhà Lý Chính Thắng đang trong giai đoạn hoàn thiện…</a>
+                                            </h3>
+                                            <div class="post-time">
+                                                12:09 - 18/10/2019
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="wrap">
+                                            <a href="#" class="post-image" style="background-image: url(https://cdn.tuoitre.vn/thumb_w/640/2019/1/16/photo-1-15476236955311643255083.jpg);">
+                                                <img src="../../assets/img/204x102.jpg" alt="">
+                                            </a>
+                                            <h3 class="post-title">
+                                                <a href="#">Tòa nhà Lý Chính Thắng đang trong giai đoạn hoàn thiện…</a>
+                                            </h3>
+                                            <div class="post-time">
+                                                12:09 - 18/10/2019
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="wrap">
+                                            <a href="#" class="post-image" style="background-image: url(https://cdn.tuoitre.vn/thumb_w/640/2019/1/16/photo-1-15476236955311643255083.jpg);">
+                                                <img src="../../assets/img/204x102.jpg" alt="">
+                                            </a>
+                                            <h3 class="post-title">
+                                                <a href="#">Tòa nhà Lý Chính Thắng đang trong giai đoạn hoàn thiện…</a>
+                                            </h3>
+                                            <div class="post-time">
+                                                12:09 - 18/10/2019
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="wrap">
+                                            <a href="#" class="post-image" style="background-image: url(https://cdn.tuoitre.vn/thumb_w/640/2019/1/16/photo-1-15476236955311643255083.jpg);">
+                                                <img src="../../assets/img/204x102.jpg" alt="">
+                                            </a>
+                                            <h3 class="post-title">
+                                                <a href="#">Tòa nhà Lý Chính Thắng đang trong giai đoạn hoàn thiện…</a>
+                                            </h3>
+                                            <div class="post-time">
+                                                12:09 - 18/10/2019
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="wrap">
+                                            <a href="#" class="post-image" style="background-image: url(https://cdn.tuoitre.vn/thumb_w/640/2019/1/16/photo-1-15476236955311643255083.jpg);">
+                                                <img src="../../assets/img/204x102.jpg" alt="">
+                                            </a>
+                                            <h3 class="post-title">
+                                                <a href="#">Tòa nhà Lý Chính Thắng đang trong giai đoạn hoàn thiện…</a>
+                                            </h3>
+                                            <div class="post-time">
+                                                12:09 - 18/10/2019
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>  
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Include scripts -->
+    <script src="../../assets/scripts/newdetailpopup/swiper.js"></script>
+    <script>
+        var wrap = $("#newsDetailsModal");
+        wrap.on("scroll", function(e) {
+            var contentScrollTop=this.scrollTop;
+            var commentScroll=$(".news-details__content-bottom").offset().top;
+            if (contentScrollTop > commentScroll) {
+                $(".info-fix").addClass("nonfix");
+            } else {
+                $(".info-fix").removeClass("nonfix");
+            }
+          
+        });
+    </script>
+</body>
+
+</html>

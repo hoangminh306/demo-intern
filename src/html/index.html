@@ -1,0 +1,840 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Trang kết quả</title>
+    <!-- VENDORS STYLES-->
+    <link rel="stylesheet" href="../../vendor/ap8/css/style.css">
+    <link rel="stylesheet" href="../../vendor/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../../vendor/bootstrap/css/bootstrap.min.css">
+    <!-- INCLUDES STYLES-->
+    <link rel="stylesheet" href="../../assets/stylesheets/index.css">
+    <link rel="stylesheet" href="../../assets/stylesheets/pages/_resultpages.css">
+    <link rel="stylesheet" href="../../assets/stylesheets/partials/map/filter-bar.css">
+    <link rel="stylesheet" href="../../assets/stylesheets/partials/map/bootstrap-tagsinput.css">
+    <link rel="stylesheet" href="../../assets/stylesheets/partials/chat/index.css">
+    <!-- INCLUDES SCRIPTS-->
+    <script src="../../vendor/jquery/jquery-3.2.1.slim.min.js"></script>
+    <script src="../../vendor/popper.js/popper.min.js"></script>
+    <script src="../../vendor/bootstrap/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <section class="section__result-pages">
+        <div class="container-fluid result-pages__container">
+            <div class="result-pages__header layout-header">
+                <div class="result-pages__header-container layout-header__container">
+                    <div class="result-pages__header-top layout-header__top">
+                        <div class="d-flex align-items-center rp-header-top__container lh-top__container">
+                            <div class="rp-header-top__logo lh-top__logo">
+                                <div class="header-top--logo lh-top--logo"><a href="/"><img src="../../../assets/img/icon-asset.png" alt=""></a></div>
+                            </div>
+                            <div class="rp-header-top__search-input lh-top__search-input">
+                                <div class="search-input">
+                                    <div class="w-100 input-search__content collapsed" id="autoComplete__content">
+                                        <input class="form-control" id="autoComplete" type="text" placeholder="Search ..." tabindex="1">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="ml-auto rp-header-top__menu lh-top__menu">
+                                <div class="d-flex align-items-center ht-menu__items">
+                                    <div class="ht-menu--item ht-menu--item__tools ht-menu-tools dropdown">
+                                        <div class="menu-tools__btn-toggle dropdown-toggle" data-toggle="dropdown"><img class="ht-menu--icon" src="../../../assets/img/Group 1.png" alt=""></div>
+                                        <div class="menu-tools__dropdown-menu dropdown-menu">
+                                            <div class="mt--dropdown-item dropdown-item"><a href="#"><img src="../../../assets/img/Group 1569.png" alt=""><span class="ht-menu--text">
+                                                        T&iacute;nh
+                                                        to&aacute;n
+                                                        kho&#x1EA3;n
+                                                        vay</span></a></div>
+                                            <div class="mt--dropdown-item dropdown-item"><a href="#"><img src="../../../assets/img/baseline-insert_chart-24px.png" alt=""><span class="ht-menu--text">
+                                                        T&iacute;nh
+                                                        to&aacute;n hi&#x1EC7;u qu&#x1EA3; d&#x1EF1; &aacute;n</span></a></div>
+                                            <div class="mt--dropdown-item dropdown-item"><a href="#"><img src="../../../assets/img/baseline-monetization_on-24px.png" alt=""><span class="ht-menu--text">T&agrave;i ch&iacute;nh c&aacute; nh&acirc;n</span></a></div>
+                                        </div>
+                                    </div>
+                                    <div class="ht-menu--item">
+                                        <div class="ht-menu__notify"><a href="#"><img class="ht-menu--icon" src="../../assets/img/Group 22.png" alt=""></a></div>
+                                    </div>
+                                    <div class="ht-menu--item"><a class="ht-menu__login menu-tools--btn-login" href="/dang-nhap"><img class="ht-menu--icon ht-menu--icon-avatar" src="../../assets/img/icon-avatar.png" alt=""></a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="result-pages__header-navigation">
+                        <div class="rp-header-navigation header-navigation__container">
+                            <div class="header-navigation__items d-flex">
+                                <div class="header-navigation--item is-actived"><a class="hn-item--text" href="/ket-qua">T&#x1EA5;t c&#x1EA3;</a></div>
+                                <div class="header-navigation--item"><a class="hn-item--text" href="/ket-qua/thong-tin">Th&ocirc;ng tin</a></div>
+                                <div class="header-navigation--item"><a class="hn-item--text" href="/ban-do">B&#x1EA3;n &dstrok;&#x1ED3;</a></div>
+                                <div class="header-navigation--item"><a class="hn-item--text" href="/ket-qua/bang-gia">B&#x1EA3;ng gi&aacute;</a></div>
+                                <div class="header-navigation--item dropdown">
+                                    <div class="hn-item--text dropdown-toggle" data-toggle="dropdown">Thêm <span class="fa icon"></span></div>
+                                    <div class="dropdown-menu hn-menu__add">
+                                        <div class="dropdown-item"><a href="#">Danh b&#x1EA1;</a></div>
+                                        <div class="dropdown-item"><a href="#">T&agrave;i nguy&ecirc;n</a></div>
+                                        <div class="dropdown-item"><a href="#">H&#x1ECF;i &dstrok;&aacute;p</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="result-pages__body">
+                <div class="result-pages__body-container container">
+                    <div class="result-pages__search-result">
+                        <div class="rp-search-result__header">
+                            <div class="text-result">Khoảng <strong>1.782</strong> kết quả</div>
+                            <div class="search-result__header-map">
+                                <div class="header-map__container">
+                                    <div class="header-map__main">
+                                        <div class="header-map--map">
+                                            <div class="header-map__map-group"><img src="../../assets/img/result-map.jpg" alt=""></div>
+                                        </div>
+                                    </div>
+                                    <div class="header-map__details">
+                                        <div class="map-details--name"><span>L&yacute; Ch&iacute;nh Th&#x1EAF;ng</span></div>
+                                        <div class="map-details--address"><span>Qu&#x1EAD;n 3, Tp H&#x1ED3; Ch&iacute; Minh</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="rp-search-result__items">
+                            <!-- SEARCH RESULT ITEM-->
+                            <div class="rp-search-result-item">
+                                <div class="search-result__item-container d-flex"><img class="sr-item__modal" src="../../../assets/img/icon-modal.png">
+                                    <div class="sr-item__poster">
+                                        <div class="poster--avatar"><a href="#"><img src="../../../assets/img/Rectangle 97.png" alt=""></a></div>
+                                    </div>
+                                    <div class="sr-item__details">
+                                        <div class="item-details__container">
+                                            <div class="item-details__title">
+                                                <div class="ids-title__content">
+                                                    <div class="ids-title--header d-flex"><a class="title--name" href="#">Asset News</a>
+                                                        <div class="title--rate d-flex align-items-center"><span>[Chung c&#x1B0; </span><span class="title_rate--highlight"> 4,5+ </span><img src="../../assets/img/star.png" alt="">]</div>
+                                                    </div>
+                                                    <p class="mb-0 ids-title--category">&dstrok;&atilde; &dstrok;&abreve;ng m&#x1ED9;t b&agrave;i vi&#x1EBF;t trong <a class="ids-title--category" href="/ket-qua/thong-tin">Th&ocirc;ng tin</a></p>
+                                                    <p class="mb-0 ids-title--date-posted">15 ng&agrave;y tr&#x1B0;&#x1EDB;c</p>
+                                                </div>
+                                            </div>
+                                            <div class="item-details__post">
+                                                <div class="ids-post--title"><a href="#">T&ograve;a nh&agrave; L&yacute; Ch&iacute;nh Th&#x1EAF;ng &dstrok;ang trong giai &dstrok;o&#x1EA1;n ho&agrave;n thi&#x1EC7;n</a></div>
+                                                <div class="ids-post--content"><span>
+                                                        Ng&agrave;y 10-12/05: C&oacute; 123 th&ocirc;ng b&aacute;o k&#x1EBF; ho&#x1EA1;ch l&#x1EF1;a ch&#x1ECD;n nh&agrave; th&#x1EA7;u ch&#x1EAD;m .... 1527/Q&Dstrok;-UBND ng&agrave;y
+                                                        14/02/2019; KHLCNT c&#x1EE7;a Ban Qu&#x1EA3;n l&yacute; d&#x1EF1; &aacute;n &dstrok;&#x1EA7;u t&#x1B0; x&acirc;y .... KHLCNT c&#x1EE7;a S&#x1EDF; T&agrave;i ch&iacute;nh t&#x1EC9;nh H&#x1B0;ng
+                                                        &mldr;. cho d&#x1EF1; &aacute;n &ldquo;Mua s&#x1EAF;m thi&#x1EBF;t b&#x1ECB; &dstrok;&#x1ECB;nh .... H&#x1EA1;ng m&#x1EE5;c: X&oacute;m Ao V&agrave;ng, C&#x1ED5; R&ugrave;a, G&ograve; Ch&egrave;, Ph&uacute;c L&#x1ED9;c,
+                                                        Quy&#x1EBF;t Th&#x1EAF;ng, T&acirc;n ...</span></div>
+                                            </div>
+                                            <div class="item-details__actions">
+                                                <div class="action-buttons-bottom">
+                                                    <a href="#" class="btn -marked">
+                                                        <span class="fa fa-star icon"></span> 40
+                                                    </a>
+                                                    <a href="#" class="btn -comment">
+                                                        <span class="fa fa-comment-o icon"></span> 40
+                                                    </a>
+                                                    <a href="#" class="btn -liked">
+                                                        <span class="-ap  icon-like2 icon"></span> 40
+                                                    </a>
+                                                    <a href="#" class="btn -share">
+                                                        <span class="-ap  icon-share4 icon"></span> 40
+                                                    </a>
+                                                    <a href="#" class="btn -mail">
+                                                        <span class="-ap  icon-mail6 icon"></span> 10
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- SEARCH RESULT ITEM-->
+                            <div class="rp-search-result-item">
+                                <div class="search-result__item-container d-flex"><img class="sr-item__modal" src="../../../assets/img/icon-modal.png">
+                                    <div class="sr-item__poster">
+                                        <div class="poster--avatar"><a href="#"><img src="../../../assets/img/1pcs-hot-kawaii-small-teddy-bears-plush-toys.png" alt=""></a></div>
+                                    </div>
+                                    <div class="sr-item__details">
+                                        <div class="item-details__container">
+                                            <div class="item-details__title">
+                                                <div class="ids-title__content">
+                                                    <div class="ids-title--header d-flex"><a class="title--name" href="#">Duc Le</a>
+                                                        <div class="title--rate d-flex align-items-center"><span>[Chung c&#x1B0; </span><span class="title_rate--highlight"> 3,5+ </span><img src="../../assets/img/star.png" alt="">]</div>
+                                                    </div>
+                                                    <p class="mb-0 ids-title--category">&dstrok;&atilde; &dstrok;&abreve;ng m&#x1ED9;t b&agrave;i vi&#x1EBF;t trong <a class="ids-title--category" href="/ket-qua/thong-tin">Th&ocirc;ng tin</a></p>
+                                                    <p class="mb-0 ids-title--date-posted">10 ng&agrave;y tr&#x1B0;&#x1EDB;c</p>
+                                                </div>
+                                            </div>
+                                            <div class="item-details__post">
+                                                <div class="ids-post--title"><a href="#">L&yacute; Ch&iacute;nh Th&#x1EAF;ng khu &dstrok;&ocirc; th&#x1ECB; t&#x1B0;&#x1A1;ng lai &dstrok;ang trong giai &dstrok;o&#x1EA1;n ho&agrave;n thi&#x1EC7;n</a></div>
+                                                <div class="ids-post--content"><span>
+                                                        Ng&agrave;y 10-12/05: C&oacute; 123 th&ocirc;ng b&aacute;o k&#x1EBF; ho&#x1EA1;ch l&#x1EF1;a ch&#x1ECD;n nh&agrave; th&#x1EA7;u ch&#x1EAD;m .... 1527/Q&Dstrok;-UBND ng&agrave;y
+                                                        14/02/2019; KHLCNT c&#x1EE7;a Ban Qu&#x1EA3;n l&yacute; d&#x1EF1; &aacute;n &dstrok;&#x1EA7;u t&#x1B0; x&acirc;y .... KHLCNT c&#x1EE7;a S&#x1EDF; T&agrave;i ch&iacute;nh t&#x1EC9;nh H&#x1B0;ng
+                                                        &mldr;. cho d&#x1EF1; &aacute;n &ldquo;Mua s&#x1EAF;m thi&#x1EBF;t b&#x1ECB; &dstrok;&#x1ECB;nh .... H&#x1EA1;ng m&#x1EE5;c: X&oacute;m Ao V&agrave;ng, C&#x1ED5; R&ugrave;a, G&ograve; Ch&egrave;, Ph&uacute;c L&#x1ED9;c,
+                                                        Quy&#x1EBF;t Th&#x1EAF;ng, T&acirc;n ...</span></div>
+                                            </div>
+                                            <div class="item-details__actions">
+                                                <div class="action-buttons-bottom">
+                                                    <a href="#" class="btn -marked">
+                                                        <span class="fa fa-star icon"></span> 40
+                                                    </a>
+                                                    <a href="#" class="btn -comment">
+                                                        <span class="fa fa-comment-o icon"></span> 40
+                                                    </a>
+                                                    <a href="#" class="btn -liked">
+                                                        <span class="-ap  icon-like2 icon"></span> 40
+                                                    </a>
+                                                    <a href="#" class="btn -share">
+                                                        <span class="-ap  icon-share4 icon"></span> 40
+                                                    </a>
+                                                    <a href="#" class="btn -mail">
+                                                        <span class="-ap  icon-mail6 icon"></span> 10
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="rp-search-result-item">
+                                <div class="search-result__item-container d-flex"><img class="sr-item__modal" src="../../../assets/img/icon-modal.png">
+                                    <div class="sr-item__poster">
+                                        <div class="poster--avatar"><a href="#"><img src="../../../assets/img/1pcs-hot-kawaii-small-teddy-bears-plush-toys.png" alt=""></a></div>
+                                    </div>
+                                    <div class="sr-item__details">
+                                        <div class="item-details__container">
+                                            <div class="item-details__title">
+                                                <div class="ids-title__content">
+                                                    <div class="ids-title--header d-flex"><a class="title--name" href="#">Asset data team</a>
+                                                        <div class="title--rate d-flex align-items-center"><span>[Chung c&#x1B0; </span><span class="title_rate--highlight"> 3,5+ </span><img src="../../assets/img/star.png" alt="">]</div>
+                                                    </div>
+                                                    <p class="mb-0 ids-title--category">đã đăng một bài viết trong <a class="ids-title--category" href="/ket-qua/thong-tin">Nhà riêng</a> cùng với <a href="#" class="ids-title--category">Homekeys 97891</a> cập nhật trạng thái <span class="red bold">Bán</span></p>
+                                                    <p class="mb-0 ids-title--date-posted">10 ng&agrave;y tr&#x1B0;&#x1EDB;c</p>
+                                                </div>
+                                            </div>
+                                            <div class="item-details__post">
+                                                <div class="realestate-item">
+                                                    <div class="post-image" style="background-image: url(https://cdn.tuoitre.vn/thumb_w/640/2019/1/16/photo-1-15476236955311643255083.jpg);">
+                                                        <img src="../../assets/img/125x130.jpg" alt="">
+                                                        <div class="like  fa fa-heart-o"></div>
+                                                    </div>
+                                                    <div class="post-content">
+                                                        <div class="top"><span>2,66 tỷ</span>  <span class="#" style="color: #189655;">60,78m<sub class="subtop">2</sub></span>  <span class="#" style="color: #189655;">150,0m<sub class="subtop">2</sub> <em style="font-weight: normal;">sàn</em> </span> </div>
+                                                        <div class="location">711014P0001- Hồ Thị Kỷ, Phường 4, Quận 6, Hồ Chí Minh</div>
+                                                        <div class="actions">
+                                                            <button class="btn">
+                                                                <img src="../../assets/img/bxs-edit.svg" alt="">
+                                                            </button>
+                                                            <button class="btn">
+                                                                <img src="../../assets/img/earth.svg" alt="">
+                                                            </button>
+                                                            <button class="btn">
+                                                                <img src="../../assets/img/baseline-map-24px.svg" alt="">
+                                                            </button>
+                                                        </div>
+                                                        <div class="map">
+                                                            <img src="../../assets/uploads/map.jpg" alt="">
+                                                        </div>
+                                                        <div class="info -top">
+                                                            <span>Nhà xây dựng</span>  <span>Bàn giao T2.2010</span>  <span>Đã hoàn công</span>  <span>Sổ hồng</span>
+                                                        </div>
+                                                        <div class="info -ban">
+                                                            <span class="status -ban">Bán</span>  <span>Avalue: <strong>2,65 tỷ</strong></span>  <span>Arent: <strong>7,5 triệu/ Tháng</strong></span>
+                                                            
+                                                           
+                                                        </div>
+                                                        <div class="info">
+                                                            <span><strong>47,2 triệu/m</strong> <sub class="subtop">2</sub></span>  <span>Trả trước: <strong>700 triệu</strong></span><span>Thanh toán: <strong>13,2 triệu/tháng</strong></span>
+                                                        </div>
+                                                        <div class="location"> <span>Hẻm xe hơi</span> <span>Đường vào 4,5m (LG 5,0m)</span></div>
+                                                        <div class="bottom-info">
+                                                            <span>
+                                                                <img src="../../assets/img/cauthang.svg" alt=""> 3 tầng
+                                                            </span>
+                                                            <span>
+                                                                <img src="../../assets/img/icons/bx-bed.svg" alt=""> 2
+                                                            </span>
+                                                            <span>
+                                                                <img src="../../assets/img/icons/bx-bath.svg" alt=""> 2
+                                                            </span>
+                                                            <span>
+                                                                <img src="../../assets/img/icons/location.svg" alt=""> Đông Nam
+                                                            </span>
+                                                        </div>
+
+                                                    </div>
+                                                </div>      
+                                            </div>
+                                            <div class="item-details__actions">
+                                                <div class="action-buttons-bottom">
+                                                    <a href="#" class="btn -marked">
+                                                        <span class="fa fa-star icon"></span> 40
+                                                    </a>
+                                                    <a href="#" class="btn -comment">
+                                                        <span class="fa fa-comment-o icon"></span> 40
+                                                    </a>
+                                                    <a href="#" class="btn -liked">
+                                                        <span class="-ap  icon-like2 icon"></span> 40
+                                                    </a>
+                                                    <a href="#" class="btn -share">
+                                                        <span class="-ap  icon-share4 icon"></span> 40
+                                                    </a>
+                                                    <a href="#" class="btn -mail">
+                                                        <span class="-ap  icon-mail6 icon"></span> 10
+                                                    </a>
+                                                    <a href="#" class="btn -mail">
+                                                        <span class="-ap   icon-add_shopping_cart icon"></span>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="rp-search-result-item">
+                                <div class="search-result__item-container d-flex"><img class="sr-item__modal" src="../../../assets/img/icon-modal.png">
+                                    <div class="sr-item__poster">
+                                        <div class="poster--avatar"><a href="#"><img src="../../../assets/img/1pcs-hot-kawaii-small-teddy-bears-plush-toys.png" alt=""></a></div>
+                                        <div class="box-user">
+                                            <div class="avatar" style="background-image: url(https://www.bitgab.com/uploads/profile/files/default.png);">
+                                                
+                                            </div>
+                                            <div class="name">Thanh Huynh</div>
+                                            <div class="pos">
+                                                <span class="icon chuyengia">
+                                                    <img src="../../assets/img/handshake.svg" alt="">
+                                                </span>
+
+                                                <span class="thin">[Chuyên gia</span> <span class="rating">3,5+ <span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star-half-o"></span></span>
+                                                ]
+                                            </div>
+                                            <div class="friend pos">
+                                                <span class="icon">
+                                                    <img src="../../assets/img/add-friend.svg" alt="">
+                                                </span>
+                                                Bạn chung với <span class="thick">Trung Hoàng</span>, <span class="thick">Thuong Huỳnh</span>.
+                                            </div>
+                                            <div class="actions">
+                                                <button class="btn">Nhắn tin</button>
+                                                <button class="btn">Kết bạn</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="sr-item__details">
+                                        <div class="item-details__container">
+                                            <div class="item-details__title">
+                                                <div class="ids-title__content">
+                                                    <div class="ids-title--header d-flex"><a class="title--name" href="#">Asset data team</a>
+                                                        <div class="title--rate d-flex align-items-center"><span>[Chung c&#x1B0; </span><span class="title_rate--highlight"> 3,5+ </span><img src="../../assets/img/star.png" alt="">]</div>
+                                                    </div>
+                                                    <p class="mb-0 ids-title--category">đã đăng một <a class="ids-title--category" href="/ket-qua/thong-tin">Con đường</a> </p>
+                                                    <p class="mb-0 ids-title--date-posted">10 ng&agrave;y tr&#x1B0;&#x1EDB;c</p>
+                                                    
+                                                </div>
+                                            </div>
+                                            <div class="item-details__post">
+                                                <div class="realestate-item">
+                                                    <div class="post-image" style="background-image: url(https://cdn.tuoitre.vn/thumb_w/640/2019/1/16/photo-1-15476236955311643255083.jpg);">
+                                                        <img src="../../assets/img/125x130.jpg" alt="">
+                                                        <div class="like actived fa fa-heart-o"></div>
+                                                    </div>
+                                                    <div class="post-content" style="padding-bottom: 5px;">
+                                                        <div class="top">Madison 15 Thi Sách</div>
+                                                        <div class="location">711014P0001- Hồ Thị Kỷ, Phường 4, Quận 6, Hồ Chí Minh</div>
+                                                        <div class="actions">
+                                                            <button class="btn">
+                                                                <img src="../../assets/img/bxs-edit.svg" alt="">
+                                                            </button>
+                                                            <button class="btn">
+                                                                <img src="../../assets/img/earth.svg" alt="">
+                                                            </button>
+                                                            <button class="btn">
+                                                                <img src="../../assets/img/baseline-map-24px.svg" alt="">
+                                                            </button>
+                                                        </div>
+                                                        <div class="map">
+                                                            <img src="../../assets/uploads/map.jpg" alt="">
+                                                        </div>
+                                                        <div class="info -top">
+                                                            <span>Sản phẩm của <strong style="color: #3b63a1;">Novoland</strong></span>  <span>Bàn giao T2.2010</span>
+                                                        </div>
+                                                        <div class="info -top">
+                                                            <span>Đang làm móng</span>  <span>Giấy phép xây dựng</span>
+                                                        </div>
+                                                        <div class="info -ban">
+                                                             <span>Avalue: <strong>24.567m <sub class="subtop">2</sub></strong></span>  
+                                                             <span><strong>2 Blocks</strong></span>
+                                                             <span><strong>1.200 CH</strong></span>
+                                                             <span><strong>- - SH</strong></span>
+                                                             <span><strong>120 OFT</strong></span>
+                                                             <span><strong>8.467m <sub class="subtop">2</sub></strong></span>
+                                                             <span><strong>TMDV</strong></span>
+                                                            
+                                                           
+                                                        </div>
+                                                        <div class="info">
+                                                            <span><strong>47,2 triệu/m</strong> <sub class="subtop">2</sub></span>  <span>Trả trước: <strong>700 triệu</strong></span><span>Thanh toán: <strong>13,2 triệu/tháng</strong></span>
+                                                        </div>
+
+                                                    </div>
+                                                </div>      
+                                            </div>
+                                            <div class="item-details__actions">
+                                                <div class="action-buttons-bottom">
+                                                    <a href="#" class="btn -marked">
+                                                        <span class="fa fa-star icon"></span> 40
+                                                    </a>
+                                                    <a href="#" class="btn -comment">
+                                                        <span class="fa fa-comment-o icon"></span> 40
+                                                    </a>
+                                                    <a href="#" class="btn -liked">
+                                                        <span class="-ap  icon-like2 icon"></span> 40
+                                                    </a>
+                                                    <a href="#" class="btn -share">
+                                                        <span class="-ap  icon-share4 icon"></span> 40
+                                                    </a>
+                                                    <a href="#" class="btn -mail">
+                                                        <span class="-ap  icon-mail6 icon"></span> 10
+                                                    </a>
+                                                    <a href="#" class="btn -mail">
+                                                        <span class="-ap   icon-add_shopping_cart icon"></span>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="rp-search-result-item">
+                                <div class="search-result__item-container d-flex"><img class="sr-item__modal" src="../../../assets/img/icon-modal.png">
+                                    <div class="sr-item__poster">
+                                        <div class="poster--avatar"><a href="#"><img src="../../../assets/img/1pcs-hot-kawaii-small-teddy-bears-plush-toys.png" alt=""></a></div>
+                                    </div>
+                                    <div class="sr-item__details">
+                                        <div class="item-details__container">
+                                            <div class="item-details__title">
+                                                <div class="ids-title__content">
+                                                    <div class="ids-title--header d-flex"><a class="title--name" href="#">Asset data team</a>
+                                                        <div class="title--rate d-flex align-items-center"><span>[Chung c&#x1B0; </span><span class="title_rate--highlight"> 3,5+ </span><img src="../../assets/img/star.png" alt="">]</div>
+                                                    </div>
+                                                    <p class="mb-0 ids-title--category">đã đăng một <a class="ids-title--category" href="/ket-qua/thong-tin">Con đường</a> </p>
+                                                    <p class="mb-0 ids-title--date-posted">10 ng&agrave;y tr&#x1B0;&#x1EDB;c</p>
+                                                </div>
+                                            </div>
+                                            <div class="item-details__post box-info-line">
+                                                <div class="row">
+                                                    <div class="col-sm-4 col-xs-12">
+                                                        <div class="name">Lý Chính Thắng</div>
+                                                        <div class="location">Phường 7, Quận Tân Bình, Hồ Chí Minh</div>
+                                                        <p class="info-left">Bất động sản trên đường này</p>
+                                                        <div class="info-row">
+                                                            <span>
+                                                                <span class="value">12</span>
+                                                                <span class="key">đất nền</span>
+                                                            </span>
+                                                            <span>
+                                                                <span class="value">12</span>
+                                                                <span class="key">căn hộ</span>
+                                                            </span>
+                                                        </div>  
+                                                    </div>
+                                                    <div class="col-sm-4 col-xs-12">
+                                                        <div class="map">
+                                                            <img src="../../assets/uploads/map.jpg" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-sm-4 col-xs-12 box-right">
+                                                        <p class="info-right">Phân đoạn: <span style="color: #707070;">Toàn đường</span></p>
+                                                        <div class="info-line">
+                                                            <span>Hiện hữu 15,5m</span>
+                                                            <span>Lộ giới 15,5m</span>
+                                                        </div>
+                                                        <p class="info-right">Lộ giới 15,5m</p>
+                                                        <p class="info-right">Avalue: 140tr/m <span class="subtop">2</span></p>
+                                                        <p class="info-right">Gợi ý kinh doanh: Làm khách sạn</p>
+                                                    </div>
+                                                </div>   
+                                            </div>
+                                            <div class="item-details__actions">
+                                                <div class="action-buttons-bottom">
+                                                    <a href="#" class="btn -marked">
+                                                        <span class="fa fa-star icon"></span> 40
+                                                    </a>
+                                                    <a href="#" class="btn -comment">
+                                                        <span class="fa fa-comment-o icon"></span> 40
+                                                    </a>
+                                                    <a href="#" class="btn -liked">
+                                                        <span class="-ap  icon-like2 icon"></span> 40
+                                                    </a>
+                                                    <a href="#" class="btn -share">
+                                                        <span class="-ap  icon-share4 icon"></span> 40
+                                                    </a>
+                                                    <a href="#" class="btn -mail">
+                                                        <span class="-ap  icon-mail6 icon"></span> 10
+                                                    </a>
+                                                    <a href="#" class="btn -mail">
+                                                        <span class="-ap   icon-add_shopping_cart icon"></span>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="rp-search-result-item">
+                                <div class="box-company-info">
+                                    <div class="row">
+                                        <div class="col-sm-8 col-xs-12">
+                                            <div class="company-info">
+                                                <div class="avatar">
+                                                    <span class="img" style="background-image: url(https://dongphucocean.vn/wp-content/uploads/2018/12/logo-dong-phuc-ocean.jpg)">
+                                                        
+                                                    </span>
+                                                </div>
+                                                <div class="name">Song Kim Land</div>
+                                                <div class="info">89 Lý Chính Thắng Phường 7, Quận Tân Bình, Hồ Chí Minh</div>
+                                                <div class="info">(+84) 098176761</div>
+                                                <div class="rating-box">
+                                                    <div class="rating">
+                                                        <span class="star fa fa-star -good"></span>
+                                                        <span class="star fa fa-star -good"></span>
+                                                        <span class="star fa fa-star"></span>
+                                                        <span class="star fa fa-star"></span>
+                                                        <span class="star fa fa-star"></span>
+                                                    </div>
+                                                    <span class="total">540 total reviews</span>
+                                                </div>
+                                                <div class="actions">
+                                                    <button class="btn btn-like">
+                                                        <span class="-ap  icon-like2 icon"></span> Thích
+                                                    </button>
+                                                </div>
+                                                
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4 col-xs-12">
+                                            <div class="map-canvas">
+                                                <img src="../../assets/uploads/map.jpg" alt="">
+                                            </div>
+                                            <div class="action-buttons-bottom">
+                                                <a href="#" class="btn -comment">
+                                                    <span class="fa fa-comment-o icon"></span> 40
+                                                </a>
+                                                <a href="#" class="btn -liked">
+                                                    <span class="-ap  icon-like2 icon"></span> 40
+                                                </a>
+                                                <a href="#" class="btn -share">
+                                                    <span class="-ap  icon-share4 icon"></span> 40
+                                                </a>
+                                                <a href="#" class="btn -mail">
+                                                    <span class="-ap  icon-mail6 icon"></span> 10
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="rp-search-result-item">
+                                <div class="search-result__item-container d-flex"><img class="sr-item__modal" src="../../../assets/img/icon-modal.png">
+                                    <div class="sr-item__poster">
+                                        <div class="poster--avatar"><a href="#"><img src="../../../assets/img/1pcs-hot-kawaii-small-teddy-bears-plush-toys.png" alt=""></a></div>
+                                    </div>
+                                    <div class="sr-item__details">
+                                        <div class="item-details__container">
+                                            <div class="item-details__title">
+                                                <div class="ids-title__content">
+                                                    <div class="ids-title--header d-flex"><a class="title--name" href="#">Asset data team</a>
+                                                        <div class="title--rate d-flex align-items-center"><span>[Chung c&#x1B0; </span><span class="title_rate--highlight"> 3,5+ </span><img src="../../assets/img/star.png" alt="">]</div>
+                                                    </div>
+                                                    <p class="mb-0 ids-title--category">đã đăng một <a class="ids-title--category" href="/ket-qua/thong-tin">Con đường</a> </p>
+                                                    <p class="mb-0 ids-title--date-posted">10 ng&agrave;y tr&#x1B0;&#x1EDB;c</p>
+                                                </div>
+                                            </div>
+                                            <div class="item-details__post box-info-line">
+                                                <div class="box-info-tn">
+                                                    <div class="icon">
+                                                        <img src="../../assets/img/home/googlepdf@3x.jpg" alt="">
+                                                    </div>
+                                                    <div class="title">Cần thông tin pháp lý khi mua nhà tại quận 2? </div>
+                                                    <div class="description">Chiều cao, cân nặng hiển thị thông tin từ lịch sử ra. Cho phép sửa đổi và lưu lại thành lịch sử (Thong tin lưu cùng chỗ với thông tin thể lực của bệnh nhân)Bổ sung thêm cột: Thời gian tạo.Danh sách bệnh nhân được order mặc định theo thời gian tạo, từ mới nhất xuống cũ nhất. Khi tạo mới 1 bệnh nhân, mặc định bệnh nhân mới được tạo sẽ được sắp xếp ngày lên đầu tiên</div>
+                                                </div>  
+                                            </div>
+                                            <div class="item-details__actions">
+                                                <div class="action-buttons-bottom">
+                                                    <a href="#" class="btn -marked">
+                                                        <span class="fa fa-star icon"></span> 40
+                                                    </a>
+                                                    <a href="#" class="btn -comment">
+                                                        <span class="fa fa-comment-o icon"></span> 40
+                                                    </a>
+                                                    <a href="#" class="btn -liked">
+                                                        <span class="-ap  icon-like2 icon"></span> 40
+                                                    </a>
+                                                    <a href="#" class="btn -share">
+                                                        <span class="-ap  icon-share4 icon"></span> 40
+                                                    </a>
+                                                    <a href="#" class="btn -mail">
+                                                        <span class="-ap  icon-mail6 icon"></span> 10
+                                                    </a>
+                                                    <a href="#" class="btn -mail">
+                                                        <span class="-ap   icon-add_shopping_cart icon"></span>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="rp-search-result-item">
+                                <div class="search-result__item-container d-flex"><img class="sr-item__modal" src="../../../assets/img/icon-modal.png">
+                                    <div class="sr-item__poster">
+                                        <div class="poster--avatar"><a href="#"><img src="../../../assets/img/1pcs-hot-kawaii-small-teddy-bears-plush-toys.png" alt=""></a></div>
+                                    </div>
+                                    <div class="sr-item__details">
+                                        <div class="item-details__container">
+                                            <div class="item-details__title">
+                                                <div class="ids-title__content">
+                                                    <div class="ids-title--header d-flex"><a class="title--name" href="#">Asset data team</a>
+                                                        <div class="title--rate d-flex align-items-center"><span>[Chung c&#x1B0; </span><span class="title_rate--highlight"> 3,5+ </span><img src="../../assets/img/star.png" alt="">]</div>
+                                                    </div>
+                                                    <p class="mb-0 ids-title--category">đã đăng một <a class="ids-title--category" href="/ket-qua/thong-tin">Hỏi đáp</a> </p>
+                                                    <p class="mb-0 ids-title--date-posted">57 ngày trước</p>
+                                                </div>
+                                            </div>
+                                            <div class="item-details__post box-info-line">
+                                                <div class="box-info-tn">
+                                                    <div class="icon">
+                                                        <img src="../../assets/img/hoidap.svg" alt="">
+                                                    </div>
+                                                    <div class="title">Cần thông tin pháp lý khi mua nhà tại quận 2? </div>
+                                                    <div class="description">Chiều cao, cân nặng hiển thị thông tin từ lịch sử ra. Cho phép sửa đổi và lưu lại thành lịch sử (Thong tin lưu cùng chỗ với thông tin thể lực của bệnh nhân)Bổ sung thêm cột: Thời gian tạo.Danh sách bệnh nhân được order mặc định theo thời gian tạo, từ mới nhất xuống cũ nhất. Khi tạo mới 1 bệnh nhân, mặc định bệnh nhân mới được tạo sẽ được sắp xếp ngày lên đầu tiên</div>
+                                                </div>  
+                                            </div>
+                                            <div class="item-details__actions">
+                                                <div class="action-buttons-bottom">
+                                                    <a href="#" class="btn -marked">
+                                                        <span class="fa fa-star icon"></span> 40
+                                                    </a>
+                                                    <a href="#" class="btn -comment">
+                                                        <span class="fa fa-comment-o icon"></span> 40
+                                                    </a>
+                                                    <a href="#" class="btn -liked">
+                                                        <span class="-ap  icon-like2 icon"></span> 40
+                                                    </a>
+                                                    <a href="#" class="btn -share">
+                                                        <span class="-ap  icon-share4 icon"></span> 40
+                                                    </a>
+                                                    <a href="#" class="btn -mail">
+                                                        <span class="-ap  icon-mail6 icon"></span> 10
+                                                    </a>
+                                                    <a href="#" class="btn -mail">
+                                                        <span class="-ap   icon-add_shopping_cart icon"></span>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="rp-search-result__pagination">
+                            <div class="search-result__pagination-container container">
+                                <div class="search-result__pagination-content d-flex align-items-center justify-content-center justify-content-sm-end"><a class="sr-pagination--btn sr-pagination--previous" href="#">Tr&#x1B0;&#x1EDB;c</a>
+                                    <div class="sr-pagination__items d-flex align-items-center"><a class="sr-pagination--item is-actived" href="#">1</a><a class="sr-pagination--item" href="#">2</a><a class="sr-pagination--item" href="#">3</a><a class="sr-pagination--item" href="#">4</a><a class="sr-pagination--item" href="#">5</a></div><a class="sr-pagination--btn sr-pagination--next" href="#">Ti&#x1EBF;p</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="result-pages__footer layout-footer">
+                <div class="result-pages__footer-container">
+                    <div class="rs-footer__links layout-footer__links d-flex justify-content-center justify-content-lg-start">
+                        <div class="rs-footer--link layout-footer--link"><a href="#">Gi&#x1EDB;i thi&#x1EC7;u</a></div>
+                        <div class="rs-footer--link layout-footer--link"><a href="#">H&#x1B0;&#x1EDB;ng d&#x1EAB;n</a></div>
+                    </div>
+                    <!-- Desktop-->
+                    <div class="rs-footer__quick-views layout-footer__quick-views d-none d-lg-flex">
+                        <div class="rs-footer__quick-view layout-footer--quick-view w-50">
+                            <marquee>
+                                <div class="quick-view__content"><span><span class="quick-view--title">Tin nhanh 1: </span> Lorem Ipsum. Proin gravida nibh vel velit
+                                        auctor aliquet. Aenean
+                                        sollicitudin, lorem quis biben <a href="#">Xem nhanh</a></span></div>
+                            </marquee>
+                        </div>
+                        <div class="rs-footer__quick-view layout-footer--quick-view w-50">
+                            <marquee>
+                                <div class="quick-view__content"><span><span class="quick-view--title">Tin nhanh 2: </span> Lorem Ipsum. Proin gravida nibh vel velit
+                                        auctor aliquet. Aenean
+                                        sollicitudin, lorem quis biben <a href="#">Xem nhanh</a></span></div>
+                            </marquee>
+                        </div>
+                    </div>
+                    <!-- Mobile-->
+                    <div class="rs-footer__quick-views layout-footer__quick-views d-flex d-lg-none">
+                        <div class="rs-footer__quick-view layout-footer--quick-view">
+                            <marquee>
+                                <div class="quick-view__content d-inline-flex"><span><span class="quick-view--title">Tin nhanh 1: </span> Lorem Ipsum. Proin gravida nibh vel velit
+                                        auctor aliquet. Aenean
+                                        sollicitudin, lorem quis biben <a href="#">Xem nhanh</a></span></div>
+                                <div class="quick-view__content d-inline-flex"><span><span class="quick-view--title">Tin nhanh 2: </span> Lorem Ipsum. Proin gravida nibh vel velit
+                                        auctor aliquet. Aenean
+                                        sollicitudin, lorem quis biben <a href="#">Xem nhanh</a></span></div>
+                            </marquee>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- CHAT SIDEBAR-->
+        <div class="d-none d-lg-block chat-sidebar collapsed" id="chat-sidebar">
+            <div class="chat-sidebar__container">
+                <div class="chat-sidebar__content d-flex flex-column justify-content-between">
+                    <!-- Chat Sidebar Top-->
+                    <div class="chat-sidebar__top">
+                        <div class="chat-sidebar--btn-collapse">
+                            <div class="btn-expand__content">
+                                <button class="btn btn-chat--expand" id="btn-chat--expand"><img src="../../assets/img/Path 115.png" alt=""></button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Chat Sidebar Bottom-->
+                    <div class="chat-sidebar__bottom">
+                        <!-- Chat list-->
+                        <div class="chat-sidebar__list chat-list">
+                            <div class="chat-list__container">
+                                <div class="chat-list__content">
+                                    <div class="chat-list__contact">
+                                        <div class="chat-list--contact-items">
+                                            <!-- Contact items-->
+                                            <div class="contact-items contact-items__active">
+                                                <!-- Contact item-->
+                                                <div class="contact-item d-flex justify-content-center">
+                                                    <div class="contact-item--avatar"><img src="../../assets/img/chat-avt-1.png" alt=""></div>
+                                                    <div class="contact-item--name">L&ecirc; &Aacute;nh H&#x1ED3;ng Nga</div>
+                                                    <div class="contact-item--status"><img src="../../assets/img/icon-chat-active.png" alt=""></div>
+                                                </div>
+                                                <!-- Contact item-->
+                                                <div class="contact-item d-flex justify-content-center">
+                                                    <div class="contact-item--avatar"><img src="../../assets/img/chat-avt-2.png" alt=""></div>
+                                                    <div class="contact-item--name">Peter Parker</div>
+                                                    <div class="contact-item--status"><img src="../../assets/img/icon-chat-active.png" alt=""></div>
+                                                </div>
+                                                <!-- Contact item-->
+                                                <div class="contact-item d-flex justify-content-center">
+                                                    <div class="contact-item--avatar"><img src="../../assets/img/chat-avt-3.png" alt=""></div>
+                                                    <div class="contact-item--name">Tom Hank</div>
+                                                    <div class="contact-item--status"><img src="../../assets/img/icon-chat-active.png" alt=""></div>
+                                                </div>
+                                                <!-- Contact item-->
+                                                <div class="contact-item d-flex justify-content-center">
+                                                    <div class="contact-item--avatar"><img src="../../assets/img/chat-avt-4.png" alt=""></div>
+                                                    <div class="contact-item--name">Amy Lee Johnson</div>
+                                                    <div class="contact-item--status"><img src="../../assets/img/icon-chat-active.png" alt=""></div>
+                                                </div>
+                                                <!-- Contact item-->
+                                                <div class="contact-item d-flex justify-content-center">
+                                                    <div class="contact-item--avatar"><img src="../../assets/img/chat-avt-5.png" alt=""></div>
+                                                    <div class="contact-item--name">Picasa Poo</div>
+                                                    <div class="contact-item--status"><img src="../../assets/img/icon-chat-active.png" alt=""></div>
+                                                </div>
+                                            </div>
+                                            <!-- Contact items-->
+                                            <div class="contact-items contact-items__inactive">
+                                                <!-- Contact item-->
+                                                <div class="contact-item d-flex justify-content-center">
+                                                    <div class="contact-item--avatar"><img src="../../assets/img/chat-avt-6.png" alt=""></div>
+                                                    <div class="contact-item--name">Jessica Snow</div>
+                                                    <div class="contact-item--status"><img src="../../assets/img/icon-chat-active.png" alt=""></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Chat message-->
+                        <div class="chat-sidebar__chat-message">
+                            <div class="chat-message__container">
+                                <div class="chat-message__content">
+                                    <div class="chat-message d-flex justify-content-center align-items-center">
+                                        <div class="chat-message--icon"><img src="../../assets/img/chat-message.png" alt=""></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Chat Search-->
+                        <div class="chat-sidebar__search-input">
+                            <div class="search-input">
+                                <div class="search-input__container">
+                                    <div class="search-input__content">
+                                        <div class="input-group">
+                                            <div class="input-group-prepend">
+                                                <div class="search-icon"><img src="../../assets/img/SVG/search.svg" alt=""></div>
+                                            </div>
+                                            <input class="form-control" type="text" placeholder="Tìm kiếm bạn bè" aria-label="Username" aria-describedby="basic-addon1">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Chat pop-up-->
+                        <div id="chat-sidebar__pop-up">
+                            <div class="chat-popup">
+                                <div class="chat-popup__container">
+                                    <div class="chat-popup__content">
+                                        <div class="chat-popup__items" id="chat-popup__items">
+                                            <div class="chat-popup--item">
+                                                <div class="chat-popup--header d-flex">
+                                                    <div class="chat-popup--status"><img src="../../assets/img/icon-chat-active.png" alt=""></div><span class="ml-2 header--text">Test</span>
+                                                    <div class="chat-popup--close">&times;</div>
+                                                </div>
+                                                <div class="chat-popup--body">
+                                                    <div class="message-received">
+                                                        <div class="message-received__content row">
+                                                            <div class="col-2 px-0 received__content--icon"><img src="../../assets/img/chat-avt-1.png" alt=""></div>
+                                                            <div class="col-10 received__content--text"><span>
+                                                                    KHLCNT c&#x1EE7;a Ban Qu&#x1EA3;n l&yacute; d&#x1EF1; &aacute;n &dstrok;&#x1EA7;u t&#x1B0; x&acirc;y .... KHLCNT c&#x1EE7;a S&#x1EDF; T&agrave;i ch&iacute;nh t&#x1EC9;nh H&#x1B0;ng Y&ecirc;n
+                                                                    cho d&#x1EF1;
+                                                                    &aacute;n &ldquo;Mua s&#x1EAF;m thi&#x1EBF;t b&#x1ECB; &dstrok;&#x1ECB;nh .... H&#x1EA1;ng m&#x1EE5;c: X&oacute;m Ao V&agrave;ng, C&#x1ED5; R&ugrave;a, G&ograve; Ch&egrave;, Ph&uacute;c L&#x1ED9;c, Quy&#x1EBF;t
+                                                                    Th&#x1EAF;ng, T&acirc;n ...</span></div>
+                                                            <div class="col-12 received__content--time text-right"><span>12:09 - 18/10/2019</span></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="message-send">
+                                                        <div class="message-send__content row align-items-end flex-column">
+                                                            <div class="message-send--text"><span>OK</span></div>
+                                                            <div class="message-send--time text-right"><span>1 min</span></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="chat-popup--input">
+                                                    <div class="input-group">
+                                                        <input class="form-control" type="text" placeholder="Nhập tin nhắn" aria-label="Username" aria-describedby="basic-addon1">
+                                                        <div class="input-group-append">
+                                                            <div class="send-icon"><img src="../../assets/img/icon-send.png" alt=""></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="../../assets/scripts/index.js"></script>
+    <script src="../../assets/scripts/chat/index.js"></script>
+    <script src="../../vendor/auto-complete/autocomplete.js"></script>
+    <script src="../../assets/scripts/resultpage/generic.js"></script>
+    <script src="./../assets/scripts/resultpage/resultpage-autocomplete.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,103 @@
+/* LOGIN BODY */
+.login-body,
+.signin-body {
+    height: calc(100vh - 62px);
+}
+
+/* login form */
+.login-form,
+.signin-form {
+    margin-top: -62px;
+}
+
+.login-form__content,
+.signin-form__content {
+    max-width: 530px;
+    padding: 40px;
+    border-radius: 6px;
+    border: solid 1px #1a73e8;
+    background-color: var(--white);
+    z-index: 1030;
+    width: 100%;
+
+    form {
+        width: 100%;
+        max-width: 380px;
+        margin: auto;
+    }
+}
+
+.form-header {}
+
+.form-header--title {
+    margin-bottom: 20px;
+    font-size: 23px;
+    color: #000000;
+}
+.openid{
+    margin-top: 20px;
+    .btn{
+        width: 100%;
+        border-radius: 2px;
+        margin-bottom: 10px;
+        .icon{
+            margin-right: 5px;
+        }
+        &.btn-fb{
+            background: #475993;
+            color: #fff;
+        }
+        &.btn-gg{
+            background: #fff;
+            box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+        }
+    }
+}
+
+.login-form__group input,
+.signin-form__group input {
+    font-size: 14px;
+    color: rgba(84, 84, 84, .87);
+}
+
+.login-form__logs,
+.signin-form__logs {
+    font-size: 13px;
+}
+
+.login-form__logs .remember-text,
+.signin-form__logs .remember-text {
+    color: #545454;
+    font-style: italic;
+}
+
+.login-form__action .btn-login,
+.login-form__action .btn-sign,
+.signin-form__action .btn-login,
+.signin-form__action .btn-sign {
+    padding: 5px 8px;
+}
+
+.logpages__footer {
+    position: absolute;
+    bottom: 0;
+    z-index: 990;
+}
+
+@media (max-width: 991px) {
+
+    .loginpage__header-container,
+    .signinpage__header-container {
+        padding: 10px;
+    }
+
+    .login-body,
+    .signin-body {
+        height: calc(100vh - 67px);
+    }
+
+    .login-form__content,
+    .signin-form__content {
+        padding: 20px;
+    }
+}

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="15" viewBox="0 0 16 15">
+    <defs>
+        <style>
+            .cls-1{opacity:.6}
+        </style>
+    </defs>
+    <path id="bx-bed" d="M16.4 8.177V3h-1.6v1.579H5.2V3H3.6v5.177A3.138 3.138 0 0 0 2 10.895v3.158a.8.8 0 0 0 .8.789h.8V18h1.6v-3.158h9.6V18h1.6v-3.158h.8a.794.794 0 0 0 .8-.789v-3.158a3.139 3.139 0 0 0-1.6-2.718zm-1.6-2.019v1.579h-4V6.158zm-9.6 0h4v1.579h-4zm11.2 7.105H3.6v-2.368a1.591 1.591 0 0 1 1.6-1.579h9.6a1.591 1.591 0 0 1 1.6 1.579z" class="cls-1" transform="translate(-2 -3)"/>
+</svg>

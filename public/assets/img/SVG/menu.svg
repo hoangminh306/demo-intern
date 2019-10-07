@@ -1,0 +1,15 @@
+<svg id="baseline-subject-24px" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        opacity: 0.6;
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <path id="Path_672" data-name="Path 672" class="cls-1" d="M14,17H4v2H14Zm6-8H4v2H20ZM4,15H20V13H4ZM4,5V7H20V5Z"/>
+  <path id="Path_673" data-name="Path 673" class="cls-2" d="M0,0H24V24H0Z"/>
+</svg>
