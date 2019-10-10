@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16.739" height="14.475" viewBox="0 0 16.739 14.475">
+    <defs>
+        <style>
+            .cls-1{opacity:.6}
+        </style>
+    </defs>
+    <g id="add-friend" class="cls-1" transform="translate(-1.952 -7.72)">
+        <g id="Group_1834" data-name="Group 1834" transform="translate(1.952 7.72)">
+            <path id="Path_319" d="M29.959 14.942a3.587 3.587 0 0 0-2.218-1.042 3.543 3.543 0 1 0-5.9-2.892 4.679 4.679 0 0 1 2.374 6.317 4.736 4.736 0 0 1 2.543 4.232v.043l-.031.593h4.246L31 17.5a3.585 3.585 0 0 0-1.041-2.558z" data-name="Path 319" transform="translate(-14.263 -7.72)"/>
+            <path id="Path_320" d="M10.039 24.515a3.545 3.545 0 1 0-4.739 0 3.587 3.587 0 0 0-3.313 3.549l-.035.706h11.314l.035-.653a3.589 3.589 0 0 0-3.263-3.6z" data-name="Path 320" transform="translate(-1.952 -14.293)"/>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,53 @@
+.info--body-header p:nth-child(1){
+    font-size: 18px;
+    color: #757575;
+    font-size: 14px;
+}
+.info--body-header p:nth-child(1) a{
+    color: #3b63a1;   
+    font-size: 18px; 
+}
+.info--body-header p:nth-child(1) span{
+    color: #e8bb20;
+}
+
+.info--body-header p:nth-child(2){
+    font-size: 16px;
+    color: #757575;
+    line-height: 0px;
+}
+.info--body-header p:nth-child(2) a{
+    font-size: 18px;
+    color: #3b63a1;
+    text-transform: capitalize;
+}
+
+.info--body-header p:nth-child(3){
+    font-size: 14px;
+    font-style: italic;
+}
+.header-modal-top{
+    width: 100%;
+    /* background-image: url("../../img/danangz.vn-155160174159830.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; */
+    border-radius: 4px;
+}
+.info-1{
+    width: 100%;
+}
+.info-1 .info-1_1{
+    width: 70%;
+    float: left;
+}
+.info-1 .info-1_2{
+    width: 30%;
+    float: right;
+}
+.info-2{
+    clear: both;
+}
+.info-img-map{
+    /* color: white; */
+}

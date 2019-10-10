@@ -1,0 +1,113 @@
+@media (max-width: 675px) {
+  .rp-search-result-item {
+    .sr-item__details {
+      .sr-item__poster {
+        width: 35px;
+      }
+      // padding-left: 0 !important;
+      .item-details__post {
+        .search-result__item {
+          .un-row {
+            display: block;
+            padding-top: 1px;
+            .item-image {
+              width: 115px;
+              height: 115px;
+            }
+            .item-price__top {
+              .fix-right-top {
+                position: absolute;
+                top: -90px;
+                left: 115px;
+                width: 12rem;
+                h6 {
+                  font-size: 13px;
+                }
+                h3 {
+                  font-size: 1.2rem;
+                }
+              }
+
+              .fix-right {
+                // display: none;
+                right: -76px !important;
+                top: -130px !important;
+                .border-icon {
+                  img {
+                  }
+                }
+              }
+            }
+          }
+        }
+        .item__map {
+          display: none;
+        }
+        .item-price__detail {
+          max-width: 100%;
+        }
+      }
+    }
+  }
+
+  // css cho result doanh nghiệp
+
+  .display-flex {
+    display: flex !important;
+    flex-direction: row;
+    flex-wrap: wrap;
+    .item-logo {
+      order: 2;
+      img {
+      }
+    }
+    .item-detail {
+      order: 3;
+      padding-top: 8px;
+      a {
+        font-size: 1rem;
+      }
+      p {
+        font-size: 0.8em;
+      }
+      small {
+        color: blue;
+        font-weight: 600;
+        font-size: 10px;
+      }
+    }
+    .item-map {
+      order: 1;
+      height: 120px;
+      width: 90%;
+      margin: auto;
+      .background {
+        width: 100%;
+        height: 100%;
+        p{
+          font-size: 0.8rem;
+        }
+      }
+    }
+  }
+  // end result cho doanh nghiệp
+}
+
+// css cho result Tài nguyên và hỏi đáp
+.item-logo-asset {
+  padding-right: 10px;
+  text-align: center;
+  img{
+    padding-top: 10px;
+    transform: scale(1.5);
+  }
+}
+.item-detail-asset {
+  padding-left: 10px;
+  h2 {
+    font-size: 0.9rem;
+  }
+  p{
+    font-size: 0.9rem;
+  }
+}

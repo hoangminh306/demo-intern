@@ -1,0 +1,30 @@
+.before_content::after {
+    content: "";
+    height: 15px;
+    vertical-align: middle;
+    margin: 0px 15px;
+    border-left: 1px solid #ddd;
+    display: inherit;
+}
+
+.color_white{
+    color: white!important;
+}
+
+.ban{
+    color: red;
+}
+
+.thue{
+    color: blueviolet;
+}
+
+.daban{
+    color: yellow;
+}
+
+@media(max-width: 991px){
+    .color_white{
+        color: black!important;
+    }
+}

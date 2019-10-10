@@ -1,0 +1,9 @@
+.box_color{
+    width: 100%;
+    height: 4rem;
+}
+
+.text_detail{
+    line-height: 4rem;
+    border-bottom: 1px solid gray;
+}

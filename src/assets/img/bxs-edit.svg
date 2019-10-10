@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="18.988" height="18.988" viewBox="0 0 18.988 18.988">
+    <defs>
+        <style>
+            .cls-1{opacity:.6}.cls-2{fill:#5f6369}
+        </style>
+    </defs>
+    <g id="bxs-edit" class="cls-1" transform="translate(-3 -2.012)">
+        <path id="Path_99" d="M17.223 3.039h4.243v3.234h-4.243z" class="cls-2" data-name="Path 99" transform="rotate(45 19.347 4.654)"/>
+        <path id="Path_100" d="M8 16h3l7.287-7.287-3-3L8 13z" class="cls-2" data-name="Path 100"/>
+        <path id="Path_101" d="M19 19H8.158c-.026 0-.053.01-.079.01s-.066-.01-.1-.01H5V5h6.847l2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-8.668l-2 2z" class="cls-2" data-name="Path 101"/>
+    </g>
+</svg>

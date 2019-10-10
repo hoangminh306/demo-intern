@@ -1,0 +1,50 @@
+.product_window_info{
+    height: 92px;
+    width: 260px;
+}
+.project_window_info  {
+    height: 130px;
+    width: 350px;
+}
+.product_window_info .item_price .price,.project_window_info .item_price .price {
+    font-size: 15px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.31;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #363636;
+}
+.product_window_info .item_price .acreage,.project_window_info .item_price .price {
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.31;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #189655;
+}
+.color_red {
+    color:red;
+}
+.color_purple {
+    color: #8A2BE2;
+}
+.color_yellow {
+    color:	#FFD700;
+}
+.pagination__page:hover {
+    color:white;
+    cursor: pointer;
+}
+
+.filterBar__view{
+    z-index: 999 !important;
+}
+
+.filterBar__view__active {
+    background-color: gray !important;
+}

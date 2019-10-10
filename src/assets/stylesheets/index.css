@@ -1,0 +1,18 @@
+@import "./_fonts.css";
+@import "./components/_header.css";
+@import "./components/_footer.css";
+/* @import "./pages/_news.css"; */
+/* @import "./pages/_modal-page.css"; */
+/* @import "./pages/_resultpages.css"; */
+
+
+body {
+  font-family: 'Roboto';
+  color: #707070;
+}
+
+img,
+.edit-picture {
+  max-width: 100%;
+  object-fit: scale-down;
+}

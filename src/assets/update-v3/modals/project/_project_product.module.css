@@ -1,0 +1,21 @@
+.fix_width{
+    width: 140px!important;
+}
+
+.not_before::before {
+    display: none !important;
+  }
+  .set_height_background{
+    height: 130px!important;
+}
+@media(max-width: 991px){
+    
+    .reset_padding_right{
+        padding-right: 0!important;
+    }
+}
+@media(max-width: 675px){
+    .reset_padding_right{
+        padding-right: 0!important;
+    }
+}

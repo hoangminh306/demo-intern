@@ -1,0 +1,322 @@
+.item-details__post .search-result__item .item-price__top {
+  display: flex;
+  position: relative;
+  max-width: 80%;
+  margin-bottom: -8px; }
+  .item-details__post .search-result__item .item-price__top p {
+    font-weight: 900;
+    font-size: 1.9em;
+    color: #000000ad;
+    max-width: 100%; }
+  .item-details__post .search-result__item .item-price__top h3 {
+    font-weight: 900;
+    color: #000000ad;
+    max-width: 100%;
+    font-size: 1.9em; }
+    .item-details__post .search-result__item .item-price__top h3:hover {
+      cursor: pointer;
+      color: black; }
+  .item-details__post .search-result__item .item-price__top .fix-right {
+    position: absolute;
+    right: -128px;
+    top: -8px; }
+    .item-details__post .search-result__item .item-price__top .fix-right .border-icon {
+      margin: 6px;
+      border: 1px solid #9c99995c;
+      box-shadow: 0px 5px 10px -5px;
+      border-radius: 7px;
+      transition: 0.4s;
+      float: right; }
+      .item-details__post .search-result__item .item-price__top .fix-right .border-icon:hover {
+        cursor: pointer;
+        background: #80808038; }
+      .item-details__post .search-result__item .item-price__top .fix-right .border-icon img {
+        padding: 6px;
+        font-size: 1rem;
+        width: 30px; }
+.item-details__post .search-result__item .item-price__detail {
+  max-width: 80%;
+  width: 100%; }
+.item-details__post .item__map {
+  position: absolute;
+  width: 95px;
+  background: black;
+  height: 95px;
+  top: 50px;
+  right: 27px; }
+  .item-details__post .item__map:hover {
+    cursor: pointer; }
+
+.sr-item__details {
+  padding-left: 0 !important; }
+  .sr-item__details .item-details__title {
+    display: flex; }
+    .sr-item__details .item-details__title .sr-item__poster {
+      margin-right: 10px; }
+
+.item-container .item-logo {
+  padding-top: 15px; }
+  .item-container .item-logo img {
+    width: 100%;
+    cursor: pointer;
+    transition: 0.4s; }
+    .item-container .item-logo img:hover {
+      transform: scale(1.1); }
+.item-container .item-detail a {
+  font-size: 1.5rem; }
+.item-container .item-detail p {
+  font-size: 1em; }
+.item-container .item-detail small {
+  color: blue;
+  font-weight: 600; }
+.item-container .item-map {
+  width: 100%;
+  background: black;
+  height: 135px;
+  margin-top: 10px;
+  padding-left: 0; }
+  .item-container .item-map .background {
+    background: #0860ab73;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    text-align: center; }
+    .item-container .item-map .background p {
+      font-size: 0.9rem; }
+
+.item-logo-asset {
+  padding-right: 0;
+  text-align: center; }
+  .item-logo-asset img {
+    padding-top: 10px;
+    transform: scale(1.5); }
+
+.item-detail-asset {
+  padding-left: 0; }
+  .item-detail-asset h2 {
+    font-size: 1.5rem; }
+
+.search-result__item .item-details .row p:not(:first-child) {
+  padding-left: 0;
+  position: relative; }
+
+.height-auto {
+  max-height: none !important;
+  padding-left: 6px; }
+
+.after-right::after {
+  content: " | ";
+  font-weight: 300; }
+
+.row .item-price {
+  font-size: 13px; }
+
+.item-details__actions {
+  width: 100%; }
+
+.item-detail img {
+  width: 20px; }
+
+.color-blue {
+  color: #1f7232; }
+
+.row .item-price .mw-100 {
+  position: relative; }
+
+
+.layout-footer__quick-views {
+  background-color: #e0e0e0;
+  position: fixed;
+  bottom: 0; }
+
+.info-ban {
+  color: #e91b23; }
+  .info-ban::before {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: #e91b23;
+    margin-right: 5px;
+    border-radius: 50%; }
+
+.realestate-item .info {
+  margin-bottom: 0; }
+
+.rp-result-item-road {
+  text-align: justify;
+  margin-top: 30px;
+  margin-left: 0; }
+  .rp-result-item-road .item-text-1 {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 0;
+    color: #000000de; }
+  .rp-result-item-road .item-text-2 {
+    font-size: 0.6em;
+    margin: 0; }
+
+.rp-result-item-road-info {
+  font-weight: bold;
+  color: #000000de;
+  font-size: 14px; }
+  .rp-result-item-road-info p {
+    margin-bottom: 0.8rem; }
+  .rp-result-item-road-info .text-3 {
+    font-weight: 100; }
+  .rp-result-item-road-info .item-text-3 {
+    font-size: 0.8em;
+    font-weight: bold;
+    margin-top: 10px; }
+
+.rp-result-item-road-map img {
+  width: 100%;
+  height: 100%; }
+
+/* Responsive Mobile */
+@media (max-width: 991px) {
+  .row {
+    margin: 0;
+    padding: 0 !important; }
+    .row .rp-result-item-road {
+      margin-top: 15px;
+      padding: 0 !important;
+      text-align: left;
+      order: 2; }
+      .row .rp-result-item-road .item-text-2 {
+        margin-bottom: 8px; }
+      .row .rp-result-item-road .item-text-1 {
+        margin-bottom: 8px; }
+    .row .rp-result-item-road-info {
+      margin: 0;
+      padding: 0 !important;
+      order: 3; }
+    .row .rp-result-item-road-map {
+      margin: 0;
+      padding: 0 !important;
+      order: 1; }
+
+  .ids-actions__content {
+    width: 100%; } }
+/* Responsive Ipad */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .row .rp-result-item-road {
+    order: 1; }
+  .row .rp-result-item-road-info {
+    order: 3;
+    padding-left: 1px; }
+  .row .rp-result-item-road-map {
+    order: 2; }
+  .row .rp-result-item-road-map img {
+    width: 95%;
+    height: 100%; }
+
+  .ids-actions__content {
+    width: 100%; } }
+.item-image {
+  cursor: pointer; }
+
+@media (max-width: 991px) {
+  .item-details__actions {
+    max-width: 670px !important;
+    width: 100% !important; }
+
+  .item__map {
+    position: absolute !important;
+    width: 95px !important;
+    background: black !important;
+    height: 70px !important;
+    top: 45px !important;
+    right: -4px !important; }
+
+  .border-icon img {
+    padding: 4px !important;
+    font-size: 1rem !important;
+    width: 25px !important; }
+
+  .fix-right {
+    position: absolute;
+    right: -125px !important;
+    top: -8px !important; }
+
+  .item-container .item-detail a {
+    font-size: 1.3rem; }
+  .item-container .item-detail p {
+    font-size: 0.9em; }
+  .item-container .item-detail small {
+    color: blue;
+    font-weight: 600;
+    font-size: 13px; }
+  .item-container .item-map .background {
+    width: 100%;
+    height: 100%; }
+    .item-container .item-map .background p {
+      font-size: 0.8rem; } }
+@media (max-width: 675px) {
+  .rp-search-result-item .sr-item__details .sr-item__poster {
+    width: 35px; }
+  .rp-search-result-item .sr-item__details .item-details__post .search-result__item .un-row {
+    display: block;
+    padding-top: 1px; }
+    .rp-search-result-item .sr-item__details .item-details__post .search-result__item .un-row .item-image {
+      width: 115px;
+      height: 115px; }
+    .rp-search-result-item .sr-item__details .item-details__post .search-result__item .un-row .item-price__top .fix-right-top {
+      position: absolute;
+      top: -90px;
+      left: 115px;
+      width: 12rem; }
+      .rp-search-result-item .sr-item__details .item-details__post .search-result__item .un-row .item-price__top .fix-right-top h6 {
+        font-size: 13px; }
+      .rp-search-result-item .sr-item__details .item-details__post .search-result__item .un-row .item-price__top .fix-right-top h3 {
+        font-size: 1.2rem; }
+    .rp-search-result-item .sr-item__details .item-details__post .search-result__item .un-row .item-price__top .fix-right {
+      right: -76px !important;
+      top: -130px !important; }
+  .rp-search-result-item .sr-item__details .item-details__post .item__map {
+    display: none; }
+  .rp-search-result-item .sr-item__details .item-details__post .item-price__detail {
+    max-width: 100%; }
+
+  .display-flex {
+    display: flex !important;
+    flex-direction: row;
+    flex-wrap: wrap; }
+    .display-flex .item-logo {
+      order: 2; }
+    .display-flex .item-detail {
+      order: 3;
+      padding-top: 8px; }
+      .display-flex .item-detail a {
+        font-size: 1rem; }
+      .display-flex .item-detail p {
+        font-size: 0.8em; }
+      .display-flex .item-detail small {
+        color: blue;
+        font-weight: 600;
+        font-size: 10px; }
+    .display-flex .item-map {
+      order: 1;
+      height: 120px;
+      width: 90%;
+      margin: auto; }
+      .display-flex .item-map .background {
+        width: 100%;
+        height: 100%; }
+        .display-flex .item-map .background p {
+          font-size: 0.8rem; } }
+.item-logo-asset {
+  padding-right: 10px;
+  text-align: center; }
+  .item-logo-asset img {
+    padding-top: 10px;
+    transform: scale(1.5); }
+
+.item-detail-asset {
+  padding-left: 10px; }
+  .item-detail-asset h2 {
+    font-size: 0.9rem; }
+  .item-detail-asset p {
+    font-size: 0.9rem; }
+
+/*# sourceMappingURL=_info_result.css.map */
